@@ -1,51 +1,108 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Thế giới của anhhhh</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/spinload.css">
-    <link rel="stylesheet" type="text/css" href=" https://fonts.googleapis.com/css?family=Pacifico" />
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
-  <body>
-    <div class="wrapper">
-      <!-- Preloader -->
-    <div id="preloader">
-      <div class="spinner">
-        <div class="rect1"></div>
-        <div class="rect2"></div>
-        <div class="rect3"></div>
-        <div class="rect4"></div>
-        <div class="rect5"></div>
-      </div>
-  </div>
-      <div id="bg"></div>
-      <div class="content">
-        <header>
-          <h2 id="title"></h2>
-          <h4 id="desc"></h4>
-        </header>
-        <button id="yes" type="button" class="btn btn-danger btn-lg"> </button>
-        <button id="no" type="button" class="btn btn-info btn-lg"></button>
-      </div>
-    </div>
-    <audio src="./sound/sound.mp3" autoplay></audio>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-  src="https://code.jquery.com/jquery-3.4.1.js"
-  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-  crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
-    <script src="./config.js"></script>
-    <script src="./js/main.js"></script>
-
-  </body>
-</html>
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+         &lt;meta http-equiv="content-type" content="text/html;charset=UTF-8" /&gt;
+   &lt;meta name="viewport" content="width=device-width,initial-scale=1" /&gt;
+    &lt;title&gt;CHẠM VÀO ĐÂY&lt;/title&gt;
+    &lt;!-- Tiêu đề của trang --&gt;
+     &lt;META NAME="description" CONTENT="Đoán xem có điều gì bất ngờ tại đây?" /&gt;
+     &lt;!-- Description ngắn --&gt;
+     &lt;meta property="og:image" content="https://minhchuit.net/wp-content/uploads/2019/10/cham-vao-day.png" /&gt;
+     &lt;meta property="og:title" content="CHẠM VÀO ĐÂY" /&gt;
+     &lt;!-- Tiêu đề của trang --&gt;
+     &lt;meta property="og:type" content="website" /&gt;
+     &lt;meta name="author" content="NGUYEN MINH CHU"&gt;
+     &lt;link rel="stylesheet" href="https://minhchuit.net/css/valentine.css" type="text/css" /&gt;
+     &lt;link rel="stylesheet" href="https://minhchuit.net/css/fontawesome-free-5.12.1-web/css/all.css" type="text/css" /&gt;
+     &lt;script language="javascript" src="https://minhchuit.net/js/jquery-3.3.1.min.js"&gt;&lt;/script&gt;
+     &lt;script&gt;
+         $(document).ready(function(){
+  $('.title').click(function(){
+    $('.container').addClass('open');
+  });
+   
+   
+  $('.close').click(function(){
+    $('.container').removeClass('open');
+  });
+});
+     &lt;/script&gt;
+     &lt;/head&gt;
+     &lt;body&gt;
+         &lt;div class="bgoverlay"&gt;
+  &lt;div class="container"&gt;
+    &lt;span class="ico"&gt;
+      &lt;span class="ico2"&gt;&lt;/span&gt;
+      &lt;span class="title"&gt;Chạm Vào&lt;br&gt;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Đây&lt;/span&gt;
+    &lt;/span&gt;
+    &lt;div class="endtext"&gt;
+      &lt;span class="close" title="Restart"&gt;&lt;i class="fa fa-times"&gt;&lt;/i&gt;&lt;/span&gt;  
+      &lt;h1&gt;I love you baby&lt;/h1&gt;
+      &lt;h2&gt;Làm người yêu tớ nhé &lt;i class="fas fa-heart"&gt;&lt;/i&gt;&lt;/h2&gt;
+      &lt;!-- Thay câu bạn muốn vào đây --&gt;
+      &lt;div id="all"&gt;
+&lt;button class="a" onclick="alert('Cái này thêm cho vui chứ không có bấm được.Vui lòng bấm nút Đồng Ý màu xanh')"&gt;Không Đồng Ý&lt;/button&gt;
+&lt;!-- Thay câu bạn muốn vào trong phần ngoặc đơn --&gt;
+ 
+&lt;button class="b"&gt;&lt;a href="https://m.me/ID Facebook của bạn"&gt;Đồng Ý&lt;/a&gt;&lt;/button&gt;
+&lt;!-- Thay id facebook của bạn vào trong ngoặc kép sau phần m.me/ --&gt;
+&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+     &lt;/body&gt;
+     &lt;/html&gt
